@@ -11,10 +11,19 @@ export const darkModeStyles = `
   [id^="editor-js"] .tc-toolbox__toggler {
     color: #fff;
   }
+
+  .ce-inline-toolbar__dropdown,
+  .ce-conversion-toolbar__tools {
+    color: #181826;
+  }
+
   [id^="editor-js"] .ce-toolbar__settings-btn--active, [id^="editor-js"] .ce-toolbar__settings-btn:hover,
   [id^="editor-js"] .ce-toolbar__plus--active, [id^="editor-js"] .ce-toolbar__plus:hover {
     background-color: #181826;
   }
+
+
+  
   [id^="editor-js"] .ce-code__textarea,
   [id^="editor-js"] .ce-rawtool__textarea,
   [id^="editor-js"] .tc-add-column:hover,
